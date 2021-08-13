@@ -1,16 +1,20 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
+	<script>
+		var host = "www.axonprimespac.com"
+		if (window.location.host == host && window.location.protocol != "https:") {window.location.protocol = "https:"}
+	</script>
+
 	<!-- 🌟 -->
 	<title>AxonPrime</title>
-	<meta name="description" content="Advancing Science">
-
+	<meta name="description" content="A Differentiated Approach to SPAC Investing">
 	<meta property="og:title" content="AxonPrime">
-	<meta property="og:description" content="Advancing Science">
+	<meta property="og:description" content="A Differentiated Approach to SPAC Investing">
 	<meta property="og:image" content="https://axonprimespac.com/img/thumbnail-og.png">
 	<meta property="og:url" content="https://axonprimespac.com">
 	<meta name="twitter:title" content="AxonPrime">
-	<meta name="twitter:description" content="Advancing Science">
+	<meta name="twitter:description" content="A Differentiated Approach to SPAC Investing">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:image" content="https://axonprimespac.com/img/thumbnail-tw.png">
 
@@ -25,70 +29,53 @@
 
 	<!-- Styles -->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Karla:200,200i,300,300i,400,400i,700,700i" rel="stylesheet">
+	<link href="css/simplegrid.css" rel="stylesheet">
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script></script>
+
 	<style>
-		html, body {
-			width: 100%;
-			overflow: hidden;
-		}
-		html {
-			background: url(/img/bg-home.png) no-repeat center center fixed; 
+		body {
+			background: url(img/bg-home.png) no-repeat center center fixed;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover;
 			background-size: cover;
 		}
-		img {
-			display: block;
-		}
-		.nav {
-			position: absolute;
-			margin: 0 auto;
-			max-width: 100%;
-		}
-		#top {
-			top: 0;
-		}
-		#bottom {
-			bottom: 0;
-		}
-		#tagline {
-			max-width: 100%;
-			margin: 0 auto;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-		}
-		h1 {
-			text-transform: uppercase;
-			font-family: "Karla", sans-serif;
-			font-weight: 700;
-			color: transparent;
-			font-size: 4.5em;
-			text-align: center;
-			white-space: nowrap; /* normal */
-		}
-		@media (max-width: 1400px){
-			h1 {font-size: 5em; white-space: normal;}
-		}
-		@media (max-width: 700px){
-			h1 {font-size: 3.5em;}
-		}
 	</style>
 </head>
 <body>
-	<div class="nav" id="top">
-		<img src="/img/nav-3.png" />
-	</div>
-	<div id="tagline">
-		<h1>Advancing Science</h1>
-	</div>
-	<div class="nav" id="bottom">
-		<img src="/img/footer-3.png" />
+	<div class="container white-text">
+		<div class="row" id="logo">
+			<div class="col-12">
+				<a href="spac.html">
+					<img width="120" src="img/logo-white.png">
+				</a>
+			</div>
+		</div>
+		<div class="row" id="nav">
+			<div class="col-12">
+				<a href="infrastructure.html" style="display: block;">Infrastructure</a>
+			</div>
+		</div>
+		<div class="row" id="home-intro">
+			<div class="col-7">
+				<h1>Our business strategy is to identify and complete a business combination that can create value for our shareholders over time</h1>
+			</div>
+			<div class="col-1"></div>
+			<div class="col-4" id="home-para">
+				<p>We believe our management team’s years of experience and our deep network of proprietary relationships will allow us to identify a wide range of attractive merger opportunities. Our networks include, among others, entrepreneurs, universities, research institutions, public and private company management teams (from early-stage venture to the Fortune 500), venture capital and private equity investors, investment bankers, attorneys, and management consultants.</p>
+			</div>
+		</div>
+		<div class="row" id="home-footer">
+			<div class="col-12">
+				<p class="small">Contacts</p>
+				<p class="small" style="padding-top:10px;">For media inquiries relating to AxonPrime please contact <a class="small" href="mailto:gavin@axonprimespac.com">gavin@axonprimespac.com</a></p>
+				<p class="small">For Investor Relations inquiries relating to AxonPrime please contact <a class="small" href="mailto:alex@axonprimespac.com">alex@axonprimespac.com</a> or <a class="small" href="mailto:axonprime@axonprimespac.com">axonprime@axonprimespac.com</a></p>
+				<p class="small" style="padding-top:20px;">© 2021 AxonPrime</p>
+			</div>
+		</div>
 	</div>
 </body>
 </html>
