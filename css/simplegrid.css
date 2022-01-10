@@ -74,6 +74,8 @@ h1, p, a, a:hover; a:visited {color: black;}
 #filings-1 {margin-top: 400px;}
 #filings-2 {margin-top: 100px;}
 #filings-2 p {font-size: 1rem;}
+.committee div:first-child {font-weight: 700;}
+.committee div:nth-child(2), .committee div:nth-child(3) {text-align: center;}
 #mng-team-pic {top: 450px;}
 #mng-team-pic-name {top: 450px;}
 .team-pack h2 {margin-top: 30px;}
