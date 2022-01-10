@@ -75,8 +75,8 @@ a:hover {opacity: 1; border-bottom: 1px black solid;}
 .center {text-align: center;}
 #filings-1 a, #filings-1 p, #filings-2 a, #filings-2 p {display: block; margin-bottom: 20px; opacity: 0.7;}
 #filings-1 a {width: fit-content;}
-.committee {border-top: 1px red solid; border-bottom: 1px red solid;}
-#tablerow1, #tablerow2, #tablerow3, #tablerow4 {}
+.committee-desk {display: block;}
+.committee-mobi {display: none;}
 
 #mng-team-pic {top: 450px;}
 #mng-team-pic-name {top: 450px;}
@@ -114,6 +114,8 @@ footer {top: 650px; margin-top: 200px; padding-bottom: 50px;}
 	#nav {top: 100px;}
 	h1 {font-size: 3rem;}
 	.team-pack {padding-bottom: 100px;}
+	.committee-desk {display: none;}
+	.committee-mobi {display: block;}
 }
 
 @media (max-width: 800px) {
