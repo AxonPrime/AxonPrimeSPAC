@@ -71,7 +71,8 @@ h1, p, a, a:hover; a:visited {color: black;}
 
 #about-intro {top: 300px;}
 #mng-team-intro {top: 400px;}
-#filings {margin-top: 400px;}
+#filings-1 {margin-top: 400px;}
+#filings-2 {margin-top: 100px;}
 #mng-team-pic {top: 450px;}
 #mng-team-pic-name {top: 450px;}
 .team-pack h2 {margin-top: 30px;}
