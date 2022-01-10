@@ -17,6 +17,7 @@ p.small, a.small {font-size: 0.875rem;}
 
 a {
 	display: block;
+	width: fit-content;
 	font-size: 1.25rem;
 	line-height: 1.5;
 	letter-spacing: 0.5px;
@@ -74,7 +75,6 @@ a:hover {opacity: 1; border-bottom: 1px black solid;}
 .fineprints {font-size: 1rem;}
 .center {text-align: center;}
 #filings-1 a, #filings-1 p, #filings-2 a, #filings-2 p {display: block; margin-bottom: 20px; opacity: 0.7;}
-#filings-1 a, a.small {width: fit-content;}
 .committee-name {font-weight: 700; font-size: 1.125rem;}
 .committee-role {font-size: 1.125rem;}
 
