@@ -29,11 +29,13 @@ a {
 	-o-transition: opacity, border-bottom 1s ease-out;
 	transition: opacity, border-bottom 1s ease-out;
 }
+
 h1, p, a, a:hover, a:visited {color: black;}
 a:hover {opacity: 1; border-bottom: 1px black solid;}
 .white-text a {color: white;}
 .white-text a:hover {opacity: 1; border-bottom: 1px white solid;}
 .white-text h1, .white-text p, .white-text a, .white-text a:visited {color: white;}
+#logo a:hover {text-decoration: none; border: none;}
 
 /* GRID */
 
@@ -71,9 +73,9 @@ a:hover {opacity: 1; border-bottom: 1px black solid;}
 #about-intro {top: 300px;}
 #mng-team-intro {top: 400px;}
 #filings {margin-top: 400px;}
+#filings a, #filings p {display: block; margin-bottom: 20px; opacity: 0.7;}
 .fineprints {font-size: 1rem;}
 .center {text-align: center;}
-#filings-1 a, #filings-1 p, #filings-2 a, #filings-2 p {display: block; margin-bottom: 20px; opacity: 0.7;}
 .committee-name {font-weight: 700; font-size: 1.125rem;}
 .committee-role {font-size: 1.125rem;}
 
@@ -87,7 +89,6 @@ a:hover {opacity: 1; border-bottom: 1px black solid;}
 .dir-team-pic-title {margin-top: -15px;}
 #mng-team-intro p, #dir-team-intro p, #about-intro p {margin-top: 30px;}
 
-#logo a:hover {text-decoration: none; border: none;}
 #home-footer {top: 350px; padding-bottom: 50px;}
 footer {top: 650px; margin-top: 200px; padding-bottom: 50px;}
 
